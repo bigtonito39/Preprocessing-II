@@ -2,20 +2,61 @@
 
 header{
     width:100%;
+        @media @mobile{
+            .thefunbus{
+                width:95%;
+                margin-left:2%;
+            }
+            
+        } 
+    
     .title-nav{
         .navsetups-desktop();
+       
+               H1{
+        @media @mobile{
+            margin-left:30%;
+        }
+       }
+
+        @media @mobile {
+          
+        flex-direction:column;
+       
+                    
+        }
         nav{
             width:50%;
             margin:2% 0;
+            @media @mobile {
+          
+                flex-direction:column;
+               width: 100%;
+                
+                     }
+            
         }
     
         nav a{
         .navanchordssetup();
         margin-left:5%;
+        @media @mobile {
+          
+            margin-left:10%;
+           
+            
+                 }
         }
     }
         img{
             margin:2% 0;
+            
+
+            @media @mobile{
+                padding:2%;
+        border-bottom:3px dotted @navigation-border;
+                
+              }
         }
    
     
